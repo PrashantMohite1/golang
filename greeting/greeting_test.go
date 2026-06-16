@@ -15,3 +15,12 @@ func TestPrintName(t *testing.T) {
 	}
 
 }
+
+func TestEmptyName(t *testing.T) {
+	message, error := PrintName("")
+
+	if message != "" || error == nil {
+		t.Errorf(`PrintName("") = %q, want="",  error : %v`, message, error)
+
+	}
+}

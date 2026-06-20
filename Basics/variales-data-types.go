@@ -1,36 +1,41 @@
-// package main
+/*
 
-// import "fmt"
+package main
 
-// func main() {
-// 	// declaring a variable with var keyword
-// 	var name string = "Palistha"
-// 	fmt.Println(name)
+import "fmt"
 
-// 	name2 := "prashant"
+func main() {
+	// declaring a variable with var keyword
+	var name string = "Palistha"
+	fmt.Println(name)
 
-// 	fmt.Printf("name = %v , name2 = %v", name, name2)
+	name2 := "prashant"
 
-// 	// data types in golang
-// 	var age int = 22
-// 	// or
-// 	age2 := 22
+	fmt.Printf("name = %v , name2 = %v", name, name2)
 
-// 	fmt.Printf("age = %v , age2 = %v", age, age2)
+	// data types in golang
+	var age int = 22
+	// or
+	age2 := 22
 
-// 	// float
-// 	marks := 95.5
-// 	fmt.Printf("marks =  %v \n", marks)
+	fmt.Printf("age = %v , age2 = %v", age, age2)
 
-// 	// constants in golang : Note we cant use shorthand declaration for constant variables
-// 	const m2 = 100
+	// float
+	marks := 95.5
+	fmt.Printf("marks =  %v \n", marks)
 
-// 	// we cant change the value of constant variable
-// 	// m2 = 200     // this will give an error
-// 	marks = 90.5 // this will not give an error
-// 	fmt.Printf("m2 = %v , marks = %v \n", m2, marks)
+	// constants in golang : Note we cant use shorthand declaration for constant variables
+	const m2 = 100
 
-// 	vegiterian := true
-// 	fmt.Printf("vegiterian = %v \n", vegiterian)
+	// we cant change the value of constant variable
+	// m2 = 200     // this will give an error
+	marks = 90.5 // this will not give an error
+	fmt.Printf("m2 = %v , marks = %v \n", m2, marks)
 
-// }
+	vegiterian := true
+	fmt.Printf("vegiterian = %v \n", vegiterian)
+
+}
+
+
+*/

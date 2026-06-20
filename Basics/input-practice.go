@@ -1,12 +1,16 @@
-// // package main
+/*
 
-// import "fmt"
+package main
 
-// func main() {
-// 	fmt.Println("Enter you name: ")
-// 	// name := ""
-// 	var name string
-// 	fmt.Scan(&name)
+import "fmt"
 
-// 	fmt.Printf("Hi %v, welecome to golang programming \n", name)
-// }
+func main() {
+	fmt.Println("Enter you name: ")
+	// name := ""
+	var name string
+	fmt.Scan(&name)
+
+	fmt.Printf("Hi %v, welecome to golang programming \n", name)
+}
+
+*/

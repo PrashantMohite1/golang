@@ -2,6 +2,7 @@
 // Add Element of Go Map Element
 // Delete Element of Go Map Element
 
+/*
 package main
 
 import "fmt"
@@ -26,3 +27,5 @@ func main() {
 	fmt.Println("map after delete opern : ", submark)
 
 }
+
+*/

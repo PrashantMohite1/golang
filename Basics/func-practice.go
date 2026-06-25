@@ -22,6 +22,9 @@
 // go closure : is a nested function that allows us to access variables of the outer function even after the outer function is closed.
 // create a function which will increment numbers by go closure
 
+// ================
+/*
+
 package main
 
 import (
@@ -71,3 +74,5 @@ func main() {
 	fmt.Println(out)
 
 }
+
+*/

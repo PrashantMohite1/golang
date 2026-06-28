@@ -10,6 +10,8 @@
 // Receive data from the channel
 // <- channelName
 
+/*
+
 package main
 
 import (
@@ -52,3 +54,6 @@ func main() {
 
 	time.Sleep(10 * time.Second)
 }
+
+
+*/

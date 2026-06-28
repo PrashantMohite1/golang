@@ -42,6 +42,7 @@ in docker main program is running in daemon baground mode - which does his job a
 // ------------------------------
 
 /*
+
 package main
 
 import (
@@ -59,7 +60,9 @@ func main() {
 	go fmt.Println("Process : 2")
 	go fmt.Println("Process : 3")
 
-	time.Sleep(2)
+	time.Sleep(3)
+
+	greet()
 }
 
 */

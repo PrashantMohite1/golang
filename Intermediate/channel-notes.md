@@ -9,6 +9,9 @@ After one send and one receive match, that communication is complete.
 
 Once a goroutine starts a send (or receive) operation on an unbuffered channel, that goroutine cannot continue until another goroutine performs the matching receive (or send).
 
+An unbuffered channel in Go is a communication mechanism between goroutines with a capacity of zero, meaning it cannot store any values.  It enforces synchronous communication, requiring a sender and receiver to be ready simultaneously for data transfer; if one is not ready, the operation blocks until the other is available.
+
+
 -  1. Send data to the channel
 ```
 channelName <- data
